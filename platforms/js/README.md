@@ -25,7 +25,7 @@ emcmake python ./platforms/js/build_js.py ./build/custom_wasm --config ./opencv_
 **Optional params: `simd`, `threads`**
 
 ```shell
-emmake python ./platforms/js/build_js.py ./opencv_repo/build_wasm --simd --threads ...
+emcmake python ./platforms/js/build_js.py ./opencv_repo/build_wasm --simd --threads ...
 ```
 
 **Build flags:**
